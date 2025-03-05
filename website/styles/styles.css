@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  height: 90vh;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 250px;
+  background-color: #1a237e;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem;
+}
+
+#chat-history {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  overflow-y: auto;
+}
+
+#chat-history li {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+#chat-history li:hover {
+  background-color: #3949ab;
+}
+
+#new-chat-btn,
+#upload-doc-btn {
+  background-color: #3949ab;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#new-chat-btn:hover,
+#upload-doc-btn:hover {
+  background-color: #303f9f;
+}
+
+/* Main Chat Area Styles */
+.main-chat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.message {
+  max-width: 70%;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+
+.message.user {
+  background-color: #1a237e;
+  color: white;
+  align-self: flex-end;
+}
+
+.message.bot {
+  background-color: #e8eaf6;
+  color: #333;
+  align-self: flex-start;
+}
+
+.chat-input {
+  display: flex;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+#chat-input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#send-btn {
+  background-color: #1a237e;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin-left: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#send-btn:hover {
+  background-color: #3949ab;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #1a237e;
+}
+
+#file-input {
+  margin: 1rem 0;
+}
+
+#submit-file {
+  background-color: #1a237e;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit-file:hover {
+  background-color: #3949ab;
+}

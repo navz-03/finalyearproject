@@ -1,0 +1,32 @@
+2025-03-04 23:00:52,593 - INFO: Using device: cpu
+2025-03-04 23:02:02,138 - INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-04 23:02:10,973 - INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-04 23:06:20,913 - INFO: Using device: cpu
+2025-03-04 23:06:20,917 - INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-04 23:11:16,922 - ERROR: Document upload error: '36f830f9-fadb-403c-8c63-40d61792e79bCollectionGetEvent0'
+2025-03-04 23:13:52,482 - INFO: Using device: cpu
+2025-03-04 23:13:52,890 - INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-04 23:15:23,505 - ERROR: Document upload error: '36f830f9-fadb-403c-8c63-40d61792e79bCollectionGetEvent0'
+2025-03-04 23:16:57,222 - INFO: Using device: cpu
+2025-03-04 23:16:57,226 - INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-04 23:18:27,972 - ERROR: Document upload error: '36f830f9-fadb-403c-8c63-40d61792e79bCollectionGetEvent0'
+2025-03-04 23:28:46,893 - INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-04 23:28:53,817 - INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-04 23:30:20,484 - ERROR: Document processing error: 'EnhancedLegalRAG' object has no attribute 'upload_document'
+2025-03-04 23:33:04,624 - INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-04 23:33:07,739 - INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-04 23:35:45,058 - ERROR: Retrieval and summarization error: 500 Server Error: Internal Server Error for url: https://router.huggingface.co/hf-inference/models/meta-llama/Meta-Llama-3-8B-Instruct (Request ID: Root=1-67c740bc-60344d0032dc2fbb26312635;33c8287a-89a2-483a-bea9-dd06d9c8451b)
+
+Model too busy, unable to get response in less than 60 second(s)
+2025-03-04 23:41:36,078 - ERROR: Retrieval and summarization error: 500 Server Error: Internal Server Error for url: https://router.huggingface.co/hf-inference/models/meta-llama/Meta-Llama-3-8B-Instruct (Request ID: Root=1-67c7421b-0afea9357ddc413d2c12433b;225570ff-5f2c-414d-86db-0866b8f62f51)
+
+Model too busy, unable to get response in less than 60 second(s)
+2025-03-05 10:13:17,729 - INFO: Using device: cuda
+2025-03-05 10:14:06,393 - INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-05 10:14:21,014 - INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-05 10:14:36,571 - INFO: Using device: cuda
+2025-03-05 10:14:36,579 - INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-05 10:19:50,819 - INFO: Using device: cuda
+2025-03-05 10:19:50,830 - INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-05 10:21:36,261 - INFO: Using device: cuda
+2025-03-05 10:21:36,647 - INFO: Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
